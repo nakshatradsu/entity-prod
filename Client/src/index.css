@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.eth_bg{
+    animation: MoveUpDown 6s linear infinite;
+}
+@keyframes MoveUpDown{
+    0%,100%{
+        transform: translateY(0px);
+    }
+    20%{
+        transform: translateY(-25px);
+    }
+    40%{
+        transform: translateY(-50px);
+    }
+    60%{
+        transform: translateY(25px);
+    }
+    80%{
+        transform: translateY(50px);
+    }
+}
